@@ -6,10 +6,10 @@ For example:<br></br>
 <b>./pycopy.py ~/image.img /dev/disk1</b><br></br>
 will burn image.img to /dev/disk1
 Also you could run it like this:
-<b>./pycopy.py</b>
-After this you will be asked to input source and target file:
-SOURCE:/home/User/greenoctocat.txt
-DEST:/home/User/redoctocat.txt
+<b>./pycopy.py</b><br></br>
+After this you will be asked to input source and target file:<br></br>
+SOURCE:/home/User/greenoctocat.txt<br></br>
+DEST:/home/User/redoctocat.txt<br></br>
 After this source file willbe copied to destanatrion file.<br></br>
 
 <b>./pycopy.py -u http://domain.extension/path/to/file greenoctocat.txt</b><br></br>
