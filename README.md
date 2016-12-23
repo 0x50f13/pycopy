@@ -4,8 +4,8 @@ Simple utility to copy files in mac os x console with progress.<br></br>
       pycopy.py</b><br></br>
 For example:<br></br>
 <b>./pycopy.py ~/image.img /dev/disk1</b><br></br>
-will burn image.img to /dev/disk1
-Also you could run it like this:
+will burn image.img to /dev/disk1.<br></br>
+Also you could run it like this:<br></br>
 <b>./pycopy.py</b><br></br>
 After this you will be asked to input source and target file:<br></br>
 SOURCE:/home/User/greenoctocat.txt<br></br>
