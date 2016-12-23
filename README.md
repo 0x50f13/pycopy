@@ -12,6 +12,6 @@ SOURCE:/home/User/greenoctocat.txt
 DEST:/home/User/redoctocat.txt
 After this source file willbe copied to destanatrion file.<br></br>
 
-<b>./pycopy.py -u http://<domain>.<etension>/path/to/file greenoctocat.txt</b><br></br>
+<b>./pycopy.py -u http://domain.extension/path/to/file greenoctocat.txt</b><br></br>
 This will download file from internet as greenocotocat.txt
 
