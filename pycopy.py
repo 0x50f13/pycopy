@@ -44,7 +44,7 @@ def download(link,file_name):
                   dl += len(data)
                   f.write(data)# writing to file
                   done = int(100 * dl / total_length)#average of percents done
-                  sys.stdout.write("\r["+'▋'*done+' '*(100-done)+"]%02d%%"%done+"("+str(dl//1024//1024)+"/"+str(total_length//1024//1024)+"Mb),"+str(dl//(time.clock() - start)//1024)+"Kb/s"+spinner[i] )    
+                  sys.stdout.write("\r["+'▋'*done+' '*(100-done)+"]%02d%%"%done+"("+str(dl//1024//1024)+"/"+str(total_length//1024//1024)+"Mb),"+str((dl//(time.clock() - start))//1024)+"Kb/s"+spinner[i] )    
                   sys.stdout.flush()
                   if i>=3:
                     i=0
@@ -98,8 +98,8 @@ def main(argv):#main function
      set_winsize(row,140)
   if "-u" in argv:
      download(argv[2],argv[3])
-     print "Download complete!"
-     sys.exti(0)
+     print "\nDownload complete!"
+     sys.exit(0)
   if(len(argv)>1):# if enough arguments we're going to use them
  	 SOURCE_FILENAME=argv[1]
  	 TARGET_FILENAME=argv[2]
