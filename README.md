@@ -1,7 +1,7 @@
 # pycopy
 Simple utility to copy files in mac os x console with progress.<br></br>
 <b>Usage:pycopy.py /path/to/source/file /path/to/destanation/file<br></br>
-      pycopy.py</b>
+      pycopy.py</b><br></br>
 For example:<br></br>
 <b>./pycopy.py ~/image.img /dev/disk1</b><br></br>
 will burn image.img to /dev/disk1
