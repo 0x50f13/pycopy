@@ -63,6 +63,9 @@ def main(argv):#main function
   if "-v" in argv:
      ver()
   if "-u" in argv:
+     if(len(argv)<4):#not enough arguments
+        print "Usage:./pycopy.py -u http://domain.extension/path/to/file <filename>"
+        sys.exit(-1)#extitng with error
      download(argv[2],argv[3])
      print "\nDownload complete!"
      sys.exit(0)
