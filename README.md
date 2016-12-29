@@ -1,8 +1,7 @@
 # pycopy
 <br></br>
-License:GNU/GPL v3.0<br></br>
+<b>License:GNU/GPL v3.0</b><br></br>
 https://www.gnu.org/licenses/gpl-3.0.html<br></br>
-<br></br>
 Simple utility to copy files in mac os x console with progress.<br></br>
 <b>Usage:pycopy.py /path/to/source/file /path/to/destanation/file<br></br>
       pycopy.py</b><br></br>
