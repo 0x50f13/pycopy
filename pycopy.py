@@ -53,12 +53,10 @@ def download(link,file_name):
                     
 global SOURCE_FILENAME#name of source filename
 global TARGET_FILENAME#name of target filename
-#commit me
 
 def ver():
   print "Version:1.0.0-prerelease"
   sys.exit(0)
-ver()
 def main(argv):#main function
   global SOURCE_FILENAME
   global TARGET_FILENAME
