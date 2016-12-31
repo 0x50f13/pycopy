@@ -3,6 +3,7 @@
 
 #####################################
 #(C)Copyrighting Andrey Zaitsew 2016#
+#License GNU/GPL 3.0                #
 #####################################
 try:
     import Foundation
