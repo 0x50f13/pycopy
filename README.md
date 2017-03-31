@@ -18,10 +18,10 @@ Also you could run it like this:<br>
 
 <br>
 After this you will be asked to input source and target file:<br>
-```sh
+
 SOURCE:/home/User/greenoctocat.txt<br>
 DEST:/home/User/redoctocat.txt<br>
-```
+
 <br>
 After this source file willbe copied to destanatrion file.<br>
 
