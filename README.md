@@ -13,9 +13,9 @@ For example:<br>
 <br>
 will burn image.img to /dev/disk1.<br>
 Also you could run it like this:<br>
-```sh
-./pycopy.py
-```
+
+`./pycopy.py`
+
 <br>
 After this you will be asked to input source and target file:<br>
 ```sh
@@ -25,9 +25,7 @@ DEST:/home/User/redoctocat.txt<br>
 <br>
 After this source file willbe copied to destanatrion file.<br>
 
-```sh
-./pycopy.py -u http://domain.extension/path/to/file greenoctocat.txt
-```
+`./pycopy.py -u http://domain.extension/path/to/file greenoctocat.txt`
 <br>
 This will download file from internet as greenocotocat.txt
 
